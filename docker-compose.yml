@@ -5,15 +5,15 @@ services:
     ports:
     - "8080:80"
     volumes:
-      - ../.:/code
-      - ./site.conf:/etc/nginx/conf.d/default.conf
+      - .:/code
+      - ./devtools/site.conf:/etc/nginx/conf.d/default.conf
     networks:
       - proxynet
   php:
     image: php:7-fpm
     volumes:
-      - ../.:/code
-      - ./log.conf:/usr/local/etc/php-fpm.d/zz-log.conf
+      - .:/code
+      - ./devtools/log.conf:/usr/local/etc/php-fpm.d/zz-log.conf
     networks:
       - proxynet
 networks:
