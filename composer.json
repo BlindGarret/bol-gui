@@ -1,0 +1,16 @@
+{
+    "name": "blindgarret/bol-gui",
+    "description": "Front end for the Bank of Learning app.",
+    "type": "project",
+    "scripts": {
+    },
+    "authors": [
+        {
+            "name": "Lucas Roe",
+            "email": "lroe2930@gmail.com"
+        }
+    ],
+    "require": {
+        "smarty/smarty": "^3.1"
+    }
+}

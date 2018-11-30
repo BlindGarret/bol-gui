@@ -1,0 +1,31 @@
+# ignore IDE/hidden/OS cache files
+.*
+*~
+nbproject
+nb-configuration.xml
+Session.vim
+*.tmproj
+*.tmproject
+tmtags
+Thumbs.db
+Desktop.ini
+
+# ignore Composer downloads
+/vendor/*
+
+# keep some hiddens
+!.htaccess
+!/.gitignore
+!/.travis.yml
+.idea
+
+# Unit test / coverage reports
+.coverage
+.tox
+
+#Smarty
+testdox.html
+TestResults.tap
+TestResults.txt
+templates_c
+.cache/*.php
