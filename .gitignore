@@ -18,6 +18,7 @@ Desktop.ini
 !/.gitignore
 !/.travis.yml
 .idea
+!/.vscode
 
 # Unit test / coverage reports
 .coverage

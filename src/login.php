@@ -1,11 +1,11 @@
 <?php
 /**
- * Learning PHP
- *
+ * Bank of learning login page
+ * 
  * PHP version 7.2
  *
  * @category PHP
- * @package  Php101
+ * @package  BOL
  * @author   Lucas Roe <lroe2930@gmail.com>
  * @license  undefined undefined
  * @link     undefined
